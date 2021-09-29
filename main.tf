@@ -15,7 +15,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rg" {
-  name     = "myTFResourceGroup"
+  name     = "kailunTFResourceGroup"
   location = "westus2"
   tags = {
     Environment = "Terraform Getting Started"
